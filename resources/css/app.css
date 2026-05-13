@@ -1,0 +1,103 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+.dark body {
+    background: #0f172a !important;
+    color: #e2e8f0 !important;
+}
+
+.dark .bg-white,
+.dark .bg-white\/90 {
+    background-color: #111827 !important;
+}
+
+.dark .bg-slate-50,
+.dark .bg-slate-100 {
+    background-color: #0f172a !important;
+}
+
+.dark .bg-sky-50 {
+    background-color: #082f49 !important;
+}
+
+.dark .bg-emerald-50 {
+    background-color: #052e2b !important;
+}
+
+.dark .bg-rose-50 {
+    background-color: #3f121e !important;
+}
+
+.dark .bg-amber-50 {
+    background-color: #3b2f0b !important;
+}
+
+.dark .border-slate-200,
+.dark .border-slate-300,
+.dark .ring-slate-200 {
+    border-color: #334155 !important;
+    --tw-ring-color: #334155 !important;
+}
+
+.dark .ring-sky-100 {
+    --tw-ring-color: #075985 !important;
+}
+
+.dark .divide-slate-100 > :not([hidden]) ~ :not([hidden]),
+.dark .divide-slate-200 > :not([hidden]) ~ :not([hidden]) {
+    border-color: #334155 !important;
+}
+
+.dark .text-slate-950,
+.dark .text-slate-900,
+.dark .text-slate-800,
+.dark .text-slate-700 {
+    color: #e2e8f0 !important;
+}
+
+.dark .text-slate-600,
+.dark .text-slate-500 {
+    color: #94a3b8 !important;
+}
+
+.dark .text-sky-700 {
+    color: #7dd3fc !important;
+}
+
+.dark input,
+.dark select,
+.dark textarea {
+    background-color: #0f172a !important;
+    border-color: #334155 !important;
+    color: #e2e8f0 !important;
+}
+
+.dark input::placeholder,
+.dark textarea::placeholder {
+    color: #64748b !important;
+}
+
+.dark table thead,
+.dark .bg-slate-50.text-left {
+    background-color: #1e293b !important;
+}
+
+.dark tr:hover,
+.dark .hover\:bg-slate-50:hover,
+.dark .hover\:bg-slate-100:hover {
+    background-color: #1e293b !important;
+}
+
+.dark .shadow-sm,
+.dark .shadow-md {
+    box-shadow: none !important;
+}
